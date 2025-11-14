@@ -4,29 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <title>Document</title>
   </head>
   <body>
     <div class="container">
       <div class="box">
-        <div class="header"><h1>Stay updated!</h1></div>
-        <div class="section_1">
+        <section class="box_1">
+          <div class="header"><h1>Stay updated!</h1></div>
           <p>Join 60,000+ product managers receiving monthly updates on:</p>
-        </div>
-        <div class="section_2">
-          <p>Product discovery and building what matters</p>
-          <p>Measuring to ensure updates are a success</p>
-          <p>And much more!</p>
-        </div>
+          <div class="check_box">
+            <div class="checks">
+              <div class="check"><img src="./icons/check.svg" alt="" /></div>
+              <p>Product discovery and building what matters</p>
+            </div>
+            <div class="checks">
+              <div class="check"><img src="./icons/check.svg" alt="" /></div>
+              <p>Measuring to ensure updates are a success</p>
+            </div>
+            <div class="checks">
+              <div class="check"><img src="./icons/check.svg" alt="" /></div>
+              <p>And much more!</p>
+            </div>
+          </div>
+        </section>
         <div class="section_3">
-          <p>Email address</p>
-          <input type="email" placeholder="email@company.com" />
-          <link rel="stylesheet" href="" />
+          <p class="email">Email address</p>
+          <form>
+            <input type="email" placeholder="email@company.com" />
+          </form>
+          <div class="link">
+            <a href="./pages/subscribed.html"
+              >Subscribe to monthly newsletter</a
+            >
+            <!-- შეკითხვა როგორ დავაკავშიროთ დივის გარეპერიმეტრი ლინკთან -->
+          </div>
         </div>
-        <footer></footer>
-        <img src="" alt="" />
       </div>
+      <img src="./images/image.png" alt="image" />
     </div>
     <script src="script.js"></script>
   </body>

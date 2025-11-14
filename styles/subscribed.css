@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bitcount+Grid+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(54, 56, 77, 1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 504px;
+  height: 520px;
+  border-radius: 36px;
+  background-color: white;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 376px;
+  height: 408px;
+}
+
+.check_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  background: linear-gradient(204.47deg, #ff6a3a 0%, #ff527b 100%);
+}
+
+button {
+  width: 376px;
+  height: 56px;
+  border-radius: 8px;
+  background-color: rgba(36, 39, 66, 1);
+  color: white;
+  border: none;
+}
+
+h1 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 56px;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: rgba(36, 39, 66, 1);
+}
+
+p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+  width: 376px;
+  height: 72px;
+  opacity: 1;
+}
+
+span {
+  font-family: Roboto;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0px;
+}
+
+button:hover {
+  background: linear-gradient(204.47deg, #ff6a3a 0%, #ff527b 100%);
+  cursor: pointer;
+}
