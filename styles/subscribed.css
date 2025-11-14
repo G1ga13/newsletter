@@ -28,7 +28,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 376px;
+  max-width: 376px;
   height: 408px;
 }
 
@@ -43,12 +43,12 @@ body {
 }
 
 button {
-  width: 376px;
+  max-width: 376px;
   height: 56px;
   border-radius: 8px;
   background-color: rgba(36, 39, 66, 1);
   color: white;
-  border: none;
+  border: 0px;
 }
 
 h1 {
@@ -85,4 +85,26 @@ span {
 button:hover {
   background: linear-gradient(204.47deg, #ff6a3a 0%, #ff527b 100%);
   cursor: pointer;
+}
+
+@media (max-width: 376px) {
+  .container {
+    width: 375px;
+    height: 812px;
+  }
+
+  .box {
+    justify-content: space-evenly;
+    width: 327px;
+    height: 600px;
+  }
+
+  p {
+    width: 327px;
+    height: 96px;
+  }
+
+  button {
+    margin-top: 200px;
+  }
 }
